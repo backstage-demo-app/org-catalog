@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: testteam
+  description: test team description
+spec:
+  type: team
+  profile:
+    displayName: Test Team
+    email: test@gmail.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=testteam
+  parent: group:default/engineering
+  children: []
