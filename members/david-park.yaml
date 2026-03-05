@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: david-park
+  description: Senior Frontend Developer — V-Kings
+spec:
+  profile:
+    displayName: David Park
+    email: david.park@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=david-park
+  memberOf: [v-kings]

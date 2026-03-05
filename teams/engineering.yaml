@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering
+  description: Engineering Department
+spec:
+  type: department
+  profile:
+    displayName: Engineering
+    email: engineering@demo.company.com
+  children: [paybusters, stargate, v-kings]

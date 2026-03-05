@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jordan-kim
+  description: Backend Developer — PayBusters
+spec:
+  profile:
+    displayName: Jordan Kim
+    email: jordan.kim@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=jordan-kim
+  memberOf: [paybusters]

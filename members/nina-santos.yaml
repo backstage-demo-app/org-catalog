@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: nina-santos
+  description: Frontend Developer — V-Kings
+spec:
+  profile:
+    displayName: Nina Santos
+    email: nina.santos@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=nina-santos
+  memberOf: [v-kings]

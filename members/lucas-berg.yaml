@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lucas-berg
+  description: Backend Developer — Stargate
+spec:
+  profile:
+    displayName: Lucas Berg
+    email: lucas.berg@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=lucas-berg
+  memberOf: [stargate]

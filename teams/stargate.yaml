@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: stargate
+  description: API Gateway team — owns gateway-service
+spec:
+  type: team
+  profile:
+    displayName: Stargate
+    email: stargate@demo.company.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=stargate
+  parent: engineering
+  children: []
+  members: [mike-oconnor, priya-sharma, lucas-berg]

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: priya-sharma
+  description: Senior Backend Developer — Stargate
+spec:
+  profile:
+    displayName: Priya Sharma
+    email: priya.sharma@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=priya-sharma
+  memberOf: [stargate]

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: v-kings
+  description: Frontend team — owns storefront-ui
+spec:
+  type: team
+  profile:
+    displayName: V-Kings
+    email: v-kings@demo.company.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=v-kings
+  parent: engineering
+  children: []
+  members: [elena-volkov, david-park, nina-santos]

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: paybusters
+  description: Payment processing team — owns payment-service
+spec:
+  type: team
+  profile:
+    displayName: PayBusters
+    email: paybusters@demo.company.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=paybusters
+  parent: engineering
+  children: []
+  members: [sarah-chen, alex-rivera, jordan-kim]

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sarah-chen
+  description: Engineering Manager — PayBusters
+spec:
+  profile:
+    displayName: Sarah Chen
+    email: sarah.chen@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=sarah-chen
+  memberOf: [paybusters]

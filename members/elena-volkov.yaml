@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elena-volkov
+  description: Engineering Manager — V-Kings
+spec:
+  profile:
+    displayName: Elena Volkov
+    email: elena.volkov@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=elena-volkov
+  memberOf: [v-kings]

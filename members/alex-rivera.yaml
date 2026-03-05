@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alex-rivera
+  description: Senior Backend Developer — PayBusters
+spec:
+  profile:
+    displayName: Alex Rivera
+    email: alex.rivera@demo.company.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=alex-rivera
+  memberOf: [paybusters]
